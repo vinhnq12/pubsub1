@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PubSub from "pubsub";
+import PubSub from "pubsub-js";
 
 export default class Panel extends Component {
   state = {

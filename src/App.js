@@ -11,7 +11,7 @@ class App extends Component {
           {this.state.show ? "Hide panel" : "Show panel"}
         </button>
         <Toggler />
-        {/* {this.state.show && <Panel initialColor="blue" />} */}
+        {this.state.show && <Panel initialColor="blue" />}
       </div>
     );
   }
